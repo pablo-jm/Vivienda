@@ -58,8 +58,9 @@ public class PisoImpl extends ViviendaImpl implements Piso{
         n = super.compareTo((p));
         if(n == 0){
             n = Integer.compare(this.planta, p.getPlanta());
-        }if(n == 0){
+            if(n == 0){
             n = Character.compare(this.puerta, p.getPuerta());
+        }
         }
         return n;
     }

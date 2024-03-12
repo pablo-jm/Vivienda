@@ -60,7 +60,7 @@ public class PisoImpl extends ViviendaImpl implements Piso{
             n = Integer.compare(this.planta, p.getPlanta());
             if(n == 0){
             n = Character.compare(this.puerta, p.getPuerta());
-        }
+            }
         }
         return n;
     }

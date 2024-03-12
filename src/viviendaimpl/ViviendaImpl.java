@@ -10,7 +10,7 @@ import Exceptions.PrecioException;
  *
  * @author DAW TARDE
  */
-public class ViviendaImpl implements Vivienda, Comparable<Vivienda>{
+public class ViviendaImpl implements Vivienda{
 
     private final double DESCUENTO = 0.10;
     private final double PEQUEÑA = 70;

@@ -8,7 +8,7 @@ package viviendaimpl;
  *
  * @author pablo
  */
-public interface Piso extends Vivienda{
+public interface Piso extends Vivienda, Comparable<Piso>{
 
     int getPlanta();
 

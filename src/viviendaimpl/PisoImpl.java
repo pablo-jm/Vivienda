@@ -8,7 +8,7 @@ package viviendaimpl;
  *
  * @author pablo
  */
-public class PisoImpl extends ViviendaImpl implements Piso{
+public class PisoImpl extends ViviendaImpl implements Piso, Comparable<Piso> {
     
     private int planta;
     private char puerta;
